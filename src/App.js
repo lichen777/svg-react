@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import Item from './components/item';
-import hair from './elements/male-hair-1-40.svg'
-import face from './elements/basic-face-2-110.svg'
+import Avatar from './components/avatar';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        
-        <svg src={hair} />
+        <Avatar 
+          width="200px"
+          hair="http://res.cloudinary.com/lchen139/image/upload/v1527436345/tulip_bag.svg"
+        />
       </div>
     );
   }

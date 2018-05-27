@@ -5,8 +5,8 @@
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "react-scripts": "1.1.4",
-    "svg-to-jsx": "^1.0.0"
+    "react-inlinesvg": "^0.8.1",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
